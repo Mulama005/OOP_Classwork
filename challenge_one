@@ -1,0 +1,8 @@
+public class Farewell {
+    void Goodbye() {
+        System.out.println("Goodbye!");
+    }
+            public static void main(String[] args) {
+                       (new Farewell()).Goodbye();
+    }
+} 
