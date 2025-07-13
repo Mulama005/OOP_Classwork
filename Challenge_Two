@@ -1,0 +1,22 @@
+public class rectanglePerimeter {
+  //class RectanglePerimeter
+    void CalculatePerimeter() {
+        // Declare variables
+        double Length;
+        double Width;
+        double perimeter;
+        
+        //Assign values to the variables
+        length = 5.0;
+        System.out.println("Length: " + Length);
+        width = 3.0;
+        System.out.println("Width: " + Width);
+    
+    perimeter = 2 * (Length + Width);
+        System.out.println("The Perimeter of the Rectangle is: " + perimeter);
+    }
+  //creates object and starts method CalculatePerimeter
+    public static void main(String[] args) {
+        (new rectanglePerimeter()).CalculatePerimeter();
+    }
+}
